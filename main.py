@@ -1,8 +1,6 @@
 from abc import ABC, abstractmethod
 
 
-
-
 class Storage(ABC):
     @abstractmethod
     def __init__(self, items, capacity):
